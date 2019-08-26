@@ -5,7 +5,7 @@ from tencent.items import TencentItem
 
 class TcentSpider(scrapy.Spider):
     name = 'tcent'
-    allowed_domains = ['careers.tencent.com/']
+    # allowed_domains = ['careers.tencent.com/']
     # start_urls = ['http://www.careers.tencent.com/']
 
     headers = {
